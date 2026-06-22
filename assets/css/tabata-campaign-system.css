@@ -37,6 +37,8 @@
 .mdb-theme .mdb-band{background:linear-gradient(90deg,var(--mdb-green-deep),var(--mdb-green),var(--mdb-yellow));color:#fff}
 .mdb-theme .mdb-soft{background:linear-gradient(180deg,#fff 0%,var(--mdb-cream) 100%)}
 .mdb-theme .tabata-marquee span{-webkit-text-stroke-color:var(--mdb-green-deep)}
+.status-card{min-width:0;overflow:hidden}
+.status-label{display:block;font-size:clamp(24px,2.55vw,34px);line-height:.94;max-width:100%;white-space:normal;overflow-wrap:normal}
 @media(max-width:900px){
   html,body{width:100%;overflow-x:hidden}
   .tabata-display{line-height:1.02;overflow-wrap:anywhere}
@@ -70,5 +72,6 @@
   #perfil .grid,#atuacao .grid,#transparencia .grid,#contato .grid{gap:24px}
   .tabata-card{padding:22px!important}
   .tabata-card h3{font-size:clamp(28px,9vw,40px)!important}
+  .status-label{font-size:clamp(27px,10vw,42px)}
   footer .flex{align-items:flex-start}
 }
